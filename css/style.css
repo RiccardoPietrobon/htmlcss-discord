@@ -7,7 +7,8 @@
 	padding: 10px 0;
 
 	/* debug */
-	background-color: lightblue;
+	/* background-color: lightblue; */
+	background-color: #255ee9;
 }
 
 .header-nav {
@@ -21,8 +22,9 @@
 	padding: 5px 10px;
 
 	/* debug */
-	background-color: goldenrod;
-	border: 2px dashed black;
+	/* background-color: goldenrod;
+	border: 2px dashed black; */
+
 }
 
 .header-links {
@@ -30,8 +32,22 @@
 	text-align: center;
 }
 
+.header-links>*{
+	text-decoration: none;
+	margin: 0 20px;
+	color: white;
+}
+
 .header-login {
 	text-align: right;
+
+}
+
+#accedi{
+	background-color: white;
+	padding: 5px 10px;
+	border-radius: 20px;
+	border-color: white;
 }
 
 /* JUMBOTRON */
@@ -43,7 +59,8 @@
 
 
 	/* debug */
-	background-color: darkblue;
+	/* background-color: darkblue; */
+	background-image: url(../img/jumbo.png);
 }
 
 .jumbotron .content {
