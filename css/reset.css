@@ -38,3 +38,8 @@ p{
 	padding: 20px;
 	font-weight: 15px;
 }
+
+a{
+	text-decoration: none;
+	color: white;
+}
