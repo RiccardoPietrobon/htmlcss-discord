@@ -1,3 +1,7 @@
+h1{
+	font-size: 50px;
+	font-weight: bolder;
+}
 /* HEADER */
 
 .header-head {
@@ -46,7 +50,7 @@
 #accedi{
 	background-color: white;
 	padding: 5px 10px;
-	border-radius: 20px;
+	border-radius: 50px;
 	border-color: white;
 }
 
@@ -59,6 +63,8 @@
 	/* debug */
 	/* background-color: darkblue; */
 	background-image: url(../img/jumbo.png);
+	background-size: cover;
+	min-height: 700px;
 }
 
 .jumbotron .content {
@@ -68,6 +74,29 @@
 	/* debug */
 /* 	background-color: #ee82ee;
 	border: 2px dashed black; */
+}
+
+.content{
+	color: white;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#Scarica{
+	background-color: white;
+	padding: 5px 10px;
+	border-radius: 50px;
+	border-color: white;
+}
+
+#Apri{
+	color: white;
+	background-color: black;
+	padding: 5px 10px;
+	border-radius: 50px;
+	border-color: black;
 }
 
 /* MAIN & SECTIONS */
@@ -95,8 +124,8 @@ main>section>.container {
 	flex-grow: 2;
 
 	/* debug */
-	background-color: cornflowerblue;
-	border: 2px dashed black;
+	/* background-color: cornflowerblue;
+	border: 2px dashed black; */
 }
 
 .side-col {
