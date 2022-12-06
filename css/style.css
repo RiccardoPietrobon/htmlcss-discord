@@ -121,7 +121,7 @@ main>section>.container {
 }
 
 .main-col {
-	flex-grow: 2;
+	width: 60%;
 
 	/* debug */
 	/* background-color: cornflowerblue;
@@ -129,11 +129,11 @@ main>section>.container {
 }
 
 .side-col {
-	flex-grow: 1;
+	width: 40%;
 
 	/* debug */
-	background-color: pink;
-	border: 2px dashed black;
+	/* background-color: pink;
+	border: 2px dashed black; */
 }
 
 .hilighted-content {
