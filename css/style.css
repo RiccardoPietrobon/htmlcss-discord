@@ -1,7 +1,4 @@
-h1{
-	font-size: 50px;
-	font-weight: bolder;
-}
+
 /* HEADER */
 
 .header-head {
@@ -138,11 +135,31 @@ main>section>.container {
 
 .hilighted-content {
 	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 
 	/* debug */
 /* 	min-height: 800px;
 	background-color: forestgreen;
 	border: 2px dashed black; */
+}
+
+.hilighted-content>*{
+	text-align: center;
+}
+
+/* h2{
+	background-image: url(../img/stars.svg);
+	padding: 20px;
+} */
+
+#Scarica2{
+	background-color: #9fa6f2;
+	padding: 5px 10px;
+	border-radius: 50px;
+	border-color: #9fa6f2;
+	color: white;
 }
 
 /* FOOTER */

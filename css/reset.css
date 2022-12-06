@@ -23,7 +23,18 @@ video {
 	max-width: 100%;
 }
 
+h1{
+	font-size: 60px;
+	font-weight: bolder;
+}
+
+h2{
+	font-size: 40px;
+	font-weight: bolder;
+}
+
 p{
 	line-height: 40px;
 	padding: 20px;
+	font-weight: 15px;
 }
