@@ -56,8 +56,6 @@
 	padding: 50px 0;
 	display: flex;
 	justify-content: center;
-
-
 	/* debug */
 	/* background-color: darkblue; */
 	background-image: url(../img/jumbo.png);
@@ -68,8 +66,8 @@
 	width: 50%;
 
 	/* debug */
-	background-color: #ee82ee;
-	border: 2px dashed black;
+/* 	background-color: #ee82ee;
+	border: 2px dashed black; */
 }
 
 /* MAIN & SECTIONS */
