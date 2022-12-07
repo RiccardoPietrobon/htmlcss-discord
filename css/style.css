@@ -148,13 +148,15 @@ main>section>.container {
 	text-align: center;
 }
 
-/* h2{
+.start-adventure>h2{
 	background-image: url(../img/stars.svg);
-	padding: 20px;
-} */
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
 #Scarica2{
 	background-color: #9fa6f2;
+	margin-top: 20px;
 	padding: 5px 10px;
 	border-radius: 50px;
 	border-color: #9fa6f2;
@@ -205,6 +207,10 @@ main>section>.container {
 
 .language>img{
 	height: 20px;
+}
+
+.icons>*{
+	margin: 0 15px;
 }
 
 .footer-side-col {
