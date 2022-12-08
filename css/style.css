@@ -98,11 +98,20 @@
 /* MAIN & SECTIONS */
 
 main>section {
-	padding: 150px 0;
+	/* padding: 150px 0; */
+}
+
+main>section::after{
+	content: " ";
+	background-image: url(../img/wave.svg);
+	display: block;
+	height: 100px;
+	background-size: cover;
 }
 
 main>section>.container {
 	display: flex;
+	padding: 50px 0;
 
 	/* debug */
 	min-height: 500px;
