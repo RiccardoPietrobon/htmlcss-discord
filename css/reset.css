@@ -39,7 +39,39 @@ p{
 	font-weight: 15px;
 }
 
+/* colors */
+:root{
+	--violet: #9fa6f2;
+	--white: white;
+	--light-black: #303030;
+	--light-grey: lightgray;
+	--light-blue: #255ee9;
+}
+
 a{
 	text-decoration: none;
-	color: white;
+	color: var(--white);
 }
+/* buttons */
+.btn{
+	padding: 7px 15px;
+	border-radius: 50px;
+	border-width: 0;
+	cursor: pointer;
+}
+
+.btn-black{
+	color: var(--white);
+	background-color: var(--light-black);
+}
+
+.btn-white{
+	color: var(--light-black);
+	background-color: var(--white);
+}
+
+.btn-violet{
+	color: var(--white);
+	background-color: var(--violet)
+}
+

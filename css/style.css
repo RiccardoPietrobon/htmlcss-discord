@@ -9,7 +9,7 @@
 
 	/* debug */
 	/* background-color: lightblue; */
-	background-color: #255ee9;
+	background-color: var(--light-blue);
 }
 
 .header-nav {
@@ -25,7 +25,6 @@
 	/* debug */
 	/* background-color: goldenrod;
 	border: 2px dashed black; */
-
 }
 
 .header-links {
@@ -35,19 +34,10 @@
 
 .header-links>*{
 	margin: 0 20px;
-	color: white;
 }
 
 .header-login {
 	text-align: right;
-
-}
-
-#accedi{
-	background-color: white;
-	padding: 5px 10px;
-	border-radius: 50px;
-	border-color: white;
 }
 
 /* JUMBOTRON */
@@ -73,26 +63,11 @@
 }
 
 .content{
-	color: white;
+	color: var(--white);
 	text-align: center;
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-}
-
-#Scarica{
-	background-color: white;
-	padding: 5px 10px;
-	border-radius: 50px;
-	border-color: white;
-}
-
-#Apri{
-	color: white;
-	background-color: black;
-	padding: 5px 10px;
-	border-radius: 50px;
-	border-color: black;
 }
 
 /* MAIN & SECTIONS */
@@ -118,11 +93,11 @@ main>section>.container {
 }
 
 .bg-white {
-	background-color: white;
+	background-color: var(--white);
 }
 
 .bg-gray {
-	background-color: lightgray;
+	background-color: var(--light-grey);
 }
 
 .main-col {
@@ -163,15 +138,6 @@ main>section>.container {
 	background-size: cover;
 }
 
-#Scarica2{
-	background-color: #9fa6f2;
-	margin-top: 20px;
-	padding: 5px 10px;
-	border-radius: 50px;
-	border-color: #9fa6f2;
-	color: white;
-}
-
 /* FOOTER */
 
 .footer-main {
@@ -179,14 +145,14 @@ main>section>.container {
 
 
 	/* debug */
-	background-color: #23272a;
+	background-color: var(--light-black);
 }
 
 .footer-upper {
 	display: flex;
 	padding-bottom: 50px;
 	margin-bottom: 50px;
-	border-bottom: 2px solid purple;
+	border-bottom: 2px solid var(--white);
 
 	/* debug */
 	min-height: 500px;
@@ -207,11 +173,11 @@ main>section>.container {
 }
 
 .footer-main-col > h2{
-	color: #9fa6f2;
+	color: var(--violet);
 }
 
 .footer-main-col > span{
-	color: white;
+	color: var(--white);
 }
 
 .language>img{
@@ -247,7 +213,7 @@ main>section>.container {
 }
 
 .footer-col>:first-child{
-	color: #9fa6f2;
+	color: var(--violet);
 }
 
 .footer-bottom {
@@ -260,17 +226,8 @@ main>section>.container {
 	/* background-color: #7fffd4; */
 }
 
-#Registrati{
-	background-color: #9fa6f2;
-	padding: 5px 10px;
-	border-radius: 50px;
-	border-color: #9fa6f2;
-	color: white;
-}
-
 .footer-bottom>* {
 	padding: 5px 10px;
-
 
 	/* debug */
 /* 	background-color: #ffb6c1;
